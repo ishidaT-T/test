@@ -29,7 +29,7 @@ const POLYGON_RPC = process.env.POLYGON_RPC || "https://polygon-rpc.com/";
 const POLYGON_MUMBAI_RPC =
   process.env.POLYGON_MUMBAI_RPC || "https://rpc-mumbai.maticvigil.com/";
 const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY || "";
-const SKIP_LOAD = process.env.SKIP_LOAD === "true";
+const SKIP_LOAD = process.env.SKIP_LOAD === "false";
 const TASK_FOLDERS = ["deployment", "utils"];
 
 if (!SKIP_LOAD) {
